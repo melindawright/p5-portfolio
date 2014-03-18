@@ -1,11 +1,11 @@
 body {
 	background: #fff;
 	
-	font-family: 'Carrois Gothic SC', sans-serif,;
+	/*font-family: 'Carrois Gothic SC', sans-serif,;
+*/
 
-/*
 	font-family: 'Josefin Sans', sans-serif;
-	*/
+	
 	font-size: 1.5em;
 	text-align: center;
 }
@@ -13,23 +13,40 @@ body {
 h1{
 	font-weight: lighter;
 	margin-top:20%;
+
 	color:#fff;
 	background: #33E5CF;
+	border-top: solid 1px #ADAA8C;
+	border-bottom: solid 1px #ADAA8C;
+	padding-bottom: .4em;
 }
 
 
 ul{
 	
-	padding-left: 0;
+	
 	font-size: .5em; 
 	font-style: italic;
-	list-style: none;
-	border-right-style: solid 2px #ADAA8C;
+}
+
+a{
+	
+	text-decoration: none;
+	color:#8C855D;
+	margin-left: 0px;
+	padding: 10px;
+
+
+	transition: all .75s;
+}
+
+a:hover {
+	color:#33E5CF;
+	font-size: 2em;
+	
 
 }
-a{
-	text-decoration: none;
-	color:#ADAA8C;
-	margin-left: 5px;
-	border-right-style: solid 2px #ADAA8C;
+
+a:visited {
+	color:#33E5CF;
 }
